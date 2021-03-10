@@ -1,0 +1,8 @@
+3. Tại sao đoạn code dưới đây không in ra 4294967296 = 2^32?
+	int x = 65536;
+	long y = x * x;
+	cout << y;
+Answer:
+	Vì phép toán x*x trả về kết quả là 1 số nguyên kiểu int sau đó nó
+ mới được gán cho biến y mà giá trị của x*x lại vượt qua khả năng lưu trữ
+ của biến kiểu int nên kết quả cho ra không chính xác.

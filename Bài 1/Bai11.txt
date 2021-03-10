@@ -1,0 +1,4 @@
+11. Chuyển đổi nhiệt độ. Dòng lệnh sau có nhiệm vụ đổi từ độ F (Fahrenheit) sang độ C (Celsius). Lệnh đó có gì sai?
+	double C = (F - 32) * (5 / 9);
+Answer:
+	Chưa khai báo biến F

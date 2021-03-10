@@ -1,0 +1,13 @@
+9.Khi ở bên trong khối lệnh con, định danh arg1 chỉ tới biến arg1 nào?
+
+ 	int arg1;
+	arg1 = -1;
+	{
+	  char arg1 = ’A’; 
+	  cout << arg1 << "\n"; 
+	} 
+	return 0; 
+
+Answer:
+	Khi ở bên trong khối lệnh con, biến arg1 có tên trùng với biến bên ngoài khối lệnh sẽ chỉ tới biến bên trong khối lệnh
+

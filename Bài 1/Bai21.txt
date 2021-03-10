@@ -1,0 +1,26 @@
+21. /** Viết chương trình TriangleArea tính diện tích tam giác.
+Chương trình nhập độ dài 3 cạnh tam giác a, b, c từ bàn phím
+và in ra diện tích của tam giác đó. Sử dụng công thức diện tích Heron: area = sqrt(s(s-a)(s-b)(s-c)), với s = (a + b + c) / 2.
+*/
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+
+{
+    double a, b, c;
+    cin >> a >> b >> c;
+    double p = (a + b + c) / 2;
+    double s;
+    s = sqrt(p * (p - a) * (p - b) * (p - c));
+    cout << fixed << setprecision(2) << s;
+
+
+
+	return 0;
+
+}

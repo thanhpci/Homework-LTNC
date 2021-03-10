@@ -1,0 +1,4 @@
+4. Biểu thức sau có giá trị gì?
+	(sqrt(2) * sqrt(2) == 2)
+Answer:
+	true

@@ -1,0 +1,7 @@
+12. Đoạn code sau in ra kết quả gì?
+	if (10 > 5); 
+	 else; {           
+	    cout << "Here";
+	 };
+Answer:
+	In ra chữ here vì sau từ else có dấu phẩy

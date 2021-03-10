@@ -1,0 +1,11 @@
+6. Thử xem trình biên dịch nói gì với một chương trình có hàm main chứa đoạn code sau
+		int a = 27 * "three"; (1)
+	hoặc
+		double x;
+		cout << x;	(2)
+	Nếu chuyển dòng khai báo x ra ngoài hàm main thì chuyện gì xảy ra? (3)
+
+Answer:
+	- (1) Trình biên dịch nói lỗi toán tử trong kiểu int
+	- (2) Trình biên dịch k phát hiện ra lỗi, giá trị x được lấy 1 giá trị ngẫu nhiên trong bộ nhớ
+	- (3) Không có lỗi j xảy ra, biến x khi đc đưa ra ngoài main đc gọi là biến toàn cục.

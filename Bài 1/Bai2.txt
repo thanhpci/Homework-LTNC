@@ -1,0 +1,5 @@
+2.Đoạn chương trình sau đây in ra kết quả gì?
+	double x = (double) (3/5);
+	cout << x;
+Answer:
+	In ra số 0.

@@ -1,0 +1,5 @@
+1. Lệnh sau đây làm gì khi grade là một biến kiểu int? Nếu có lỗi cú pháp, hãy sửa lỗi.
+bool isA = (90 <= grade <= 100);
+
+Answer:
+	Lệnh này sẽ trả về giá trị true hoặc false cho biến isA.

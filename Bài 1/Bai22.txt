@@ -1,0 +1,25 @@
+22. /** Body mass index - BMI là tỷ lệ giữa cân nặng của một người
+(tính theo kilogram) với bình phương chiều cao của người đó
+(tính theo meter). Hãy viết chương trình BMI nhập hai giá trị
+cân nặng và chiều cao từ bàn phím và in chỉ số BMI ra màn hình.
+*/
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+
+{
+    double weight, tall;
+    double bmi;
+    cin >> weight >> tall;
+    bmi = weight / (tall * tall);
+    cout << fixed << setprecision(2) << bmi;
+
+
+	return 0;
+
+}

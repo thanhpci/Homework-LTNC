@@ -1,0 +1,10 @@
+8.Chuyện gì xảy ra nếu ta khai báo hai biến trùng tên trong cùng một khối lệnh (block)? Lấy ví dụ là chương trình có hàm main() với nội dung sau:
+	int  arg1;
+	arg1 = -1;
+	int x, y, z;
+	char myDouble = ’5 ’;
+	char arg1 = ’A ’;
+	cout << arg1 << "\n";
+	return 0;
+Answer:
+	Trình biên dịch sẽ báo cho ta biết có lỗi mâu thuẫn định nghĩa biến.

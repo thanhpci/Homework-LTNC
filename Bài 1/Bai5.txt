@@ -1,0 +1,6 @@
+5. Viết một chương trình divideByZero để xem chuyện gì xảy ra khi bạn đem chia một giá trị kiểu int hoặc double cho 0 hoặc lấy đồng dư cho 0.
+
+Answer:
+	- Nếu lấy một số kiểu int chia cho 0 hoắc lấy đồng dư cho 0 thì trình biên dịch vẫn cho chương trình chạy bình thường và không báo cho ta biết có lỗi nhưng không thể cho ra kết quả.
+	- Nếu lấy một số kiểu double chia đồng dư cho 0 thì trình biên dịch sẽ báo lỗi, chương trình không chạy vì phép chia đồng dư k được định nghĩa trong kiểu double.
+	- Nếu lấy một số kiểu double chia cho 0 thì chương trình vẫn chạy và cho ta kết quả inf.

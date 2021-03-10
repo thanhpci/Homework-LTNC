@@ -1,0 +1,26 @@
+18. /**Viết chương trình EuclidDistance lần lượt đọc 4 số thực từ bàn phím
+x1, y1, x2, và y2 in ra khoảng cách Euclid giữa hai điểm (x1, y1) và
+(x2, y2).*/
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+
+
+using namespace std;
+
+int main()
+
+{
+    int x1, y1, x2, y2;
+    cin >> x1 >> y1 >> x2 >> y2;
+
+    int d;
+    d = sqrt((x1-x2)*(x1-x2) + (y1 - y2)*(y1-y2));
+
+    cout << fixed << setprecision(2) << d;
+
+
+	return 0;
+
+}

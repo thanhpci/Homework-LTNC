@@ -1,0 +1,30 @@
+23. /** Viết một chương trình MaxWithoutIf nhập hai số nguyên
+và in ra số lớn hơn trong hai số đó. Trong chương trình
+không được dùng lệnh if hay cấu trúc (a > b)? b : a;.
+Gợi ý: dùng hàm abs trong thư viện cstdlib.
+
+*/
+
+#include <iostream>
+#include <cmath>
+
+
+using namespace std;
+
+int main()
+
+{
+    int a, b;
+    cin >> a >> b;
+    int tong = a + b;
+    int hieu = abs(a - b);
+
+    int soLon = (tong + hieu) / 2;
+
+    cout << soLon;
+
+
+
+	return 0;
+
+}

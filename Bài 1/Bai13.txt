@@ -1,0 +1,24 @@
+13. Viết một chương trình distance.cpp đọc hai số nguyên x và y từ bàn phím
+và in ra khoảng cách từ điểm (x, y) tới gốc tọa độ (0, 0).
+
+Answer:
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+
+
+int main()
+
+{
+    int x, y;
+    cin >> x >> y;
+    int d = sqrt(x * x + y * y);
+    cout << fixed << setprecision(3) << d;
+
+
+
+	return 0;
+}

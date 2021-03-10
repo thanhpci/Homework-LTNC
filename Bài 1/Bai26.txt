@@ -1,0 +1,38 @@
+26. /** Thống kê đơn giản. Cho N số nguyên, hãy viết một chương trình
+ BasicStatistics tính giá trị trung bình (double), giá trị lớn nhất
+ và giá trị nhỏ nhất. Chương trình cần nhập N là số các số nguyên,
+ sau đó lần lượt nhập từng số nguyên trong N số đó. Ví dụ
+*/
+
+#include <iostream>
+
+
+using namespace std;
+
+
+
+int main()
+{
+    int n;
+    cin >> n;
+    int a[n];
+    for (int i = 0; i < n; i++)  {
+        cin >> a[i];
+    }
+
+    double tb = 0;
+    int mini = a[0];
+    int maxi = a[0];
+    for (int i = 0; i < n; i++) {
+        tb += a[i];
+        if (a[i] > maxi) maxi = a[i];
+        if (a[i] < mini) mini = a[i];
+    }
+    tb /= n;
+    cout << "Trung binh:" << tb << endl;
+    cout << "max:" << maxi << endl;
+    cout << "min:" << mini << endl;
+
+
+    return 0;
+}
