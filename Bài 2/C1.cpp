@@ -1,23 +1,21 @@
 #include <iostream>
-#include <cmath>
+
 using namespace std;
 
-bool checkPrime (int n);
-
+bool prime(int n) {
+    if (n < 2) return false;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
 int main()
 {
     int n;
     cin >> n;
-    if (checkPrime(n)) cout << "Yes";
-    else cout << "No";
-    return 0;
-}
+    if(prime(n)) cout << "true";
+    else cout << "false";
 
-bool checkPrime (int n)
-{
-    for (int i = 2; i <= sqrt(n); i++)
-    {
-        if (n % i == 0) return true;
-    }
-    return false;
+
+    return 0;
 }
